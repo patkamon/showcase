@@ -1,5 +1,3 @@
-import { image } from "html2canvas/dist/types/css/types/image";
-
 export default {
     en: {
       title: "Use AI to summarize the ghost",

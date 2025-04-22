@@ -1,6 +1,5 @@
 <script setup>
 import { ref, reactive, onMounted } from 'vue';
-import html2canvas from 'html2canvas';
 
 const canvas1 = ref(null);
 const canvas2 = ref(null);
