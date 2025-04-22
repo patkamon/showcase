@@ -16,7 +16,7 @@ const cards = computed(() => {
       name: path.split('/').pop().split('.')[0],
       title: data?.title ?? '[no title]',
       idea: data?.idea ?? '[no idea]',
-      image: new URL(data?.image_2 , import.meta.url).href
+      image: "/showcase" +data?.image_2
     };
   });
 });

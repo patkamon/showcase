@@ -19,7 +19,7 @@
        </span>
       </template>
       <template v-else-if="key.includes('image')">
-        <img class="my-4 border-2 border-dashed" :src="$t(key)" width="600" />
+        <img class="my-4 border-2 border-dashed" :src="'/showcase'+$t(key)" width="600" />
       </template>
       <template v-else-if="key.includes('keywords')">
         <div class="flex gap-2 items-center mr-0 ml-auto pr-4">
