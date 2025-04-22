@@ -1,3 +1,5 @@
+import { image } from "html2canvas/dist/types/css/types/image";
+
 export default {
     en: {
       title: "Use AI to summarize the ghost",
@@ -6,8 +8,10 @@ export default {
       keywords: "Gemini/MongoDB/Lambda/FFmpeg/GoogleTTS",
       source: "github/break/youtube/break/https://whatsghost.xyz/",
       paragraph_1: "Get auto-generated captions from youtube video as text and send it to gemini to summarize it.",
+      image_1: "/img/whatsghost_1.png",
       paragraph_2: "Then send the summary to google text2speech to get the audio file.",
       paragraph_3: "Combine it into a video using ffmpeg.",
+      image_2: "/img/whatsghost_2.png",
       paragraph_4: "Insert into mongo db and deploy lambda function so that it can be accessed from the website.",
     },
     th: {
@@ -17,8 +21,10 @@ export default {
       keywords: "Gemini/MongoDB/Lambda/FFmpeg/GoogleTTS",
       source: "github/break/youtube/break/https://whatsghost.xyz/",
       paragraph_1: "ดึง auto generate caption จาก youtube video มาเป็น text ส่งให้กับ gemini เพื่อให้มันสรุปเรื่องย่อให้",
+      image_1: "/img/whatsghost_1.png",
       paragraph_2: "จากนั้นส่งสรุปให้ google text2speech เพื่อให้ไดก้ไฟล์เสียง",
       paragraph_3: "ประกอบรวมเป็น video โดยใช้ ffmpeg",
+      image_2: "/img/whatsghost_2.png",
       paragraph_4: "insert เข้า mongo db  deploy lambda function เพื่อให้สามารถเรียกดูได้จากหน้าเว็บ",
     },
   }
