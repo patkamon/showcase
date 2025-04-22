@@ -1,0 +1,28 @@
+export default {
+    en: {
+      title: "Create Tinder for AI dating",
+      idea: "Let AI roleplay as a Tinder match",
+      date: "01/25",
+      keywords: "LLM/GenImg/API/ollama",
+      source: "https://github.com/patkamon/tenderoid/break/https://youtu.be/quI9ZoAxaBs?si=RQNWAQyJjG2etJV3/break/deploy",
+      image_1: "/img/tinder_1.png",
+      paragraph_1: "The main tool used is ollama, which is an LLM that can work offline and can use API, getimg is an API used to generate images from text prompts, and fastapi for API communication.",
+      image_2: "/img/tinder_2.png",
+      paragraph_2: "The example UI is created using vue3 and tailwindcss, using websocket for server communication.",
+      image_3: "/img/tinder_3.png",
+      paragraph_3: "Example images from getimg API are beautiful and reasonably priced.",
+    },
+    th: {
+      title: "สร้าง Tinder สำหรับเดทกับ AI",
+      idea: "ให้ AI roleplay เป็นคนโสดใน Tinder",
+      date: "01/25",
+      keywords: "LLM/GenImg/API/ollama",
+      source: "https://github.com/patkamon/tenderoid/break/https://youtu.be/quI9ZoAxaBs?si=RQNWAQyJjG2etJV3/break/deploy",
+      image_1: "/img/tinder_1.png",
+      paragraph_1: "tool หลักที่ใช้คือ ollama ซึ่งเป็น LLM ที่สามารถทำงานได้แบบ offline และสามารถใช้ API ได้, getimg เป็น API ที่ใช้ในการสร้างภาพจาก text prompt, และ fastapi สำหรับติดต่อกับ API",
+      image_2: "/img/tinder_2.png",
+      paragraph_2: "ตัวอย่าง UI สร้างจาก vue3 และ tailwindcss โดยใช้ websocket ในการติดต่อกับ server",
+      image_3: "/img/tinder_3.png",
+      paragraph_3: "ตัวอย่างรูปจาก getimg api สวยและราคาดีมากๆ ",
+    },
+  }
