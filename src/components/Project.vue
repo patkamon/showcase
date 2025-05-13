@@ -2,18 +2,18 @@
   <div v-for="key in translationKeys" :key="key">
     <div class="flex justify-center">
       <template v-if="key.includes('title')">
-        <h1 class="text-3xl font-bold text-center">{{ $t(key) }}</h1>
+        <h1 class="text-3xl font-bold text-center text-black">{{ $t(key) }}</h1>
       </template>
       <template v-else-if="key.includes('idea')">
-        <h2 class="text-2xl text-left"> <strong>Idea: </strong>{{ $t(key) }}</h2>
+        <h2 class="text-2xl text-left text-black"> <strong>Idea: </strong>{{ $t(key) }}</h2>
       </template>
       <template v-else-if="key.includes('paragraph')">
-       <p class="text-xl">
+       <p class="text-xl text-black">
          {{ $t(key) }} 
        </p>
       </template>
       <template v-else-if="key.includes('date')">
-       <span class="rounded-2xl font-bold bg-yellow-200 py-1 px-2 ml-0 mr-auto mt-2">
+       <span class="rounded-2xl font-bold bg-yellow-200 py-1 px-2 ml-0 mr-auto mt-2 text-black">
           DATE: 
          {{ $t(key) }} 
        </span>
